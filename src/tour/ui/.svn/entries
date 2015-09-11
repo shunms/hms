@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="98"
+   name=""
+   committed-date="2006-04-23T13:42:06.218630Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/tour/ui"
+   last-author="pthippana"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="98"
+   name="tour_information.ui"
+   text-time="2006-05-04T04:03:20.954105Z"
+   committed-date="2006-04-23T13:42:06.218630Z"
+   checksum="ad293c27bad94d035e6a21f8ea04f851"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-04T04:03:20.934076Z"/>
+</wc-entries>

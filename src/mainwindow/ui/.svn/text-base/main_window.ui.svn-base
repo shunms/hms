@@ -1,0 +1,221 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Main_Window</class>
+ <widget class="QMainWindow" name="Main_Window" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QVBoxLayout" >
+    <property name="margin" >
+     <number>9</number>
+    </property>
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="viewArea" >
+      <widget class="QWidget" name="page" />
+      <widget class="QWidget" name="page_2" />
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHalls" >
+    <property name="title" >
+     <string>&amp;Halls</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTour" >
+    <property name="title" >
+     <string>Tour</string>
+    </property>
+    <addaction name="actionNew_Tour" />
+    <addaction name="actionAdd_Tour" />
+    <addaction name="actionModify_Tour" />
+   </widget>
+   <widget class="QMenu" name="menuShuttle" >
+    <property name="title" >
+     <string>&amp;Shuttle</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHotel_Setup" >
+    <property name="title" >
+     <string>Hotel S&amp;etup</string>
+    </property>
+    <addaction name="action_Manage_Hotel" />
+    <addaction name="action_Configure_Security" />
+   </widget>
+   <widget class="QMenu" name="menuHelp" >
+    <property name="title" >
+     <string>Hel&amp;p</string>
+    </property>
+    <addaction name="actionAbout_HMS" />
+    <addaction name="actionAbout_Softlinks" />
+    <addaction name="actionOnline_Help" />
+   </widget>
+   <widget class="QMenu" name="menuGolf" >
+    <property name="title" >
+     <string>&amp;Golf</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuRestaurant" >
+    <property name="title" >
+     <string>Rest&amp;aurant</string>
+    </property>
+    <addaction name="actionNewRestReservation" />
+    <addaction name="actionFindTableReservation" />
+    <addaction name="actionViewWaitingList" />
+   </widget>
+   <widget class="QMenu" name="menuRoom_Reservation" >
+    <property name="title" >
+     <string>&amp;Room Reservation</string>
+    </property>
+    <addaction name="actionAddRoomReservation" />
+    <addaction name="actionFindRoomReservation" />
+    <addaction name="actionCheckIn" />
+    <addaction name="actionCheckOut" />
+   </widget>
+   <widget class="QMenu" name="menu_File" >
+    <property name="title" >
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionPrint" />
+    <addaction name="separator" />
+    <addaction name="actionLogout" />
+    <addaction name="actionQuit" />
+   </widget>
+   <addaction name="menu_File" />
+   <addaction name="menuRoom_Reservation" />
+   <addaction name="menuRestaurant" />
+   <addaction name="menuHalls" />
+   <addaction name="menuTour" />
+   <addaction name="menuShuttle" />
+   <addaction name="menuGolf" />
+   <addaction name="menuHotel_Setup" />
+   <addaction name="menuHelp" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>575</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionPrint" >
+   <property name="text" >
+    <string>&amp;Print</string>
+   </property>
+  </action>
+  <action name="actionQuit" >
+   <property name="text" >
+    <string>&amp;Quit</string>
+   </property>
+  </action>
+  <action name="actionLogout" >
+   <property name="text" >
+    <string>Lo&amp;gout</string>
+   </property>
+  </action>
+  <action name="actionAddRoomReservation" >
+   <property name="text" >
+    <string>&amp;Add Reservation</string>
+   </property>
+  </action>
+  <action name="actionFindRoomReservation" >
+   <property name="text" >
+    <string>&amp;Find Reservation</string>
+   </property>
+  </action>
+  <action name="actionCheckIn" >
+   <property name="text" >
+    <string>Check-&amp;In</string>
+   </property>
+  </action>
+  <action name="actionCheckOut" >
+   <property name="text" >
+    <string>Check-&amp;Out</string>
+   </property>
+  </action>
+  <action name="actionNewRestReservation" >
+   <property name="text" >
+    <string>New Table Reservation</string>
+   </property>
+  </action>
+  <action name="actionFindTableReservation" >
+   <property name="text" >
+    <string>Find Reservation</string>
+   </property>
+  </action>
+  <action name="actionViewWaitingList" >
+   <property name="text" >
+    <string>View Waiting List</string>
+   </property>
+  </action>
+  <action name="actionNew_Tour" >
+   <property name="text" >
+    <string>Add Tour</string>
+   </property>
+  </action>
+  <action name="actionAdd_Tour" >
+   <property name="text" >
+    <string>Add Tour</string>
+   </property>
+  </action>
+  <action name="actionModify_Tour" >
+   <property name="text" >
+    <string>Modify Tour</string>
+   </property>
+  </action>
+  <action name="actionAbout_HMS" >
+   <property name="text" >
+    <string>About &amp;HMS</string>
+   </property>
+  </action>
+  <action name="actionAbout_Softlinks" >
+   <property name="text" >
+    <string>About &amp;Softlinks</string>
+   </property>
+  </action>
+  <action name="actionOnline_Help" >
+   <property name="text" >
+    <string>&amp;Online Help</string>
+   </property>
+  </action>
+  <action name="action_Manage_Hotel" >
+   <property name="text" >
+    <string>&amp;Manage Hotel</string>
+   </property>
+  </action>
+  <action name="action_Configure_Security" >
+   <property name="text" >
+    <string>&amp;Configure Security</string>
+   </property>
+  </action>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

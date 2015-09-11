@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="266"
+   name=""
+   committed-date="2006-05-06T15:54:59.791655Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/mainwindow"
+   last-author="john"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="139"
+   name="stub_security.cpp"
+   text-time="2006-05-04T04:03:25.851147Z"
+   committed-date="2006-04-26T18:31:27.842363Z"
+   checksum="90f177c138b05b413de95a99bc20dc40"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.228814Z"/>
+<entry
+   committed-rev="139"
+   name="login_ui.cpp"
+   text-time="2006-05-04T04:03:25.871176Z"
+   committed-date="2006-04-26T18:31:27.842363Z"
+   checksum="d556d87c3c56fcd42e13de65e012b5aa"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.238828Z"/>
+<entry
+   committed-rev="139"
+   name="about_ui.cpp"
+   text-time="2006-05-04T04:03:25.881190Z"
+   committed-date="2006-04-26T18:31:27.842363Z"
+   checksum="964822bdc43de82ba68813eb5e4fa153"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.248843Z"/>
+<entry
+   committed-rev="74"
+   name="softlinks_ui.cpp"
+   text-time="2006-05-04T04:03:25.891204Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="b0217f5d2f5af0b93176b217defc42b0"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.369016Z"/>
+<entry
+   committed-rev="74"
+   name="stub_security.h"
+   text-time="2006-05-04T04:03:25.901219Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="f6a49ca8a276f1f796530f674ae0d91f"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.379030Z"/>
+<entry
+   committed-rev="79"
+   name="login_ui.h"
+   text-time="2006-05-04T04:03:25.911233Z"
+   committed-date="2006-04-22T20:21:07.576853Z"
+   checksum="df4572c8c4024caeefbc6ce285569e88"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.619376Z"/>
+<entry
+   committed-rev="74"
+   name="default_view_ui.cpp"
+   text-time="2006-05-04T04:03:25.921248Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="e0b90c04d702232103d29a40b5232ce2"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.699491Z"/>
+<entry
+   committed-rev="266"
+   name="main_window.cpp"
+   text-time="2006-05-06T17:09:50.613536Z"
+   committed-date="2006-05-06T15:54:59.791655Z"
+   checksum="7144ce06b1c2bd18f9682d145646a99f"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T17:09:50.583492Z"/>
+<entry
+   committed-rev="81"
+   name="about_ui.h"
+   text-time="2006-05-04T04:03:25.951291Z"
+   committed-date="2006-04-22T20:51:59.776578Z"
+   checksum="4dcef95810cac6b387f19af03cce6b88"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.969880Z"/>
+<entry
+   committed-rev="74"
+   name="browserlaunch.cpp"
+   text-time="2006-05-04T04:03:25.730974Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="ff4ab934153593681f9441e835037542"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.088612Z"/>
+<entry
+   committed-rev="81"
+   name="softlinks_ui.h"
+   text-time="2006-05-04T04:03:25.740988Z"
+   committed-date="2006-04-22T20:51:59.776578Z"
+   checksum="cd820cc5f0968dc4146be8133df6116c"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.098627Z"/>
+<entry
+   committed-rev="81"
+   name="default_view_ui.h"
+   text-time="2006-05-04T04:03:25.771032Z"
+   committed-date="2006-04-22T20:51:59.776578Z"
+   checksum="4c1905d4f1fd1dd836e135a4a89661b2"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.178742Z"/>
+<entry
+   committed-rev="167"
+   name="main_window.h"
+   text-time="2006-05-04T04:03:25.811089Z"
+   committed-date="2006-04-29T20:43:46.323744Z"
+   checksum="775aa16f82f4dd32dcce416d1cd6497a"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.208785Z"/>
+<entry
+   committed-rev="80"
+   name="browserlaunch.h"
+   text-time="2006-05-04T04:03:25.841132Z"
+   committed-date="2006-04-22T20:24:49.991043Z"
+   checksum="4b6b891d121f886421e2a5781ae3acfa"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:24.218800Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+</wc-entries>

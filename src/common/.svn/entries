@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="146"
+   name=""
+   committed-date="2006-04-26T22:50:28.598442Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/common"
+   last-author="john"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="64"
+   name="us_state_combo_box.cpp"
+   text-time="2006-05-04T04:03:13.563478Z"
+   committed-date="2006-04-20T15:02:21.038261Z"
+   checksum="907f4e0731ce5b49d5b0918c603acd34"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.243017Z"/>
+<entry
+   committed-rev="64"
+   name="us_state_combo_box.h"
+   text-time="2006-05-04T04:03:13.573492Z"
+   committed-date="2006-04-20T15:02:21.038261Z"
+   checksum="7c01a30614dc1d639719fb86d60ef71f"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.253032Z"/>
+<entry
+   committed-rev="146"
+   name="filterserialnum.cpp"
+   text-time="2006-05-04T04:03:13.593521Z"
+   committed-date="2006-04-26T22:50:28.598442Z"
+   checksum="fd525c5bb3b585c8ab56eefd06804027"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.263046Z"/>
+<entry
+   committed-rev="146"
+   name="filterserialnum.h"
+   text-time="2006-05-04T04:03:13.603536Z"
+   committed-date="2006-04-26T22:50:28.598442Z"
+   checksum="7dd9005776d0c205da9effbc3a915b99"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.273060Z"/>
+<entry
+   committed-rev="51"
+   name="version.h"
+   text-time="2006-05-04T04:03:13.613550Z"
+   committed-date="2006-04-15T17:26:40.077563Z"
+   checksum="6c0891ee3a10941657830806200c647c"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.533435Z"/>
+<entry
+   committed-rev="77"
+   name="fakevalues.h"
+   text-time="2006-05-04T04:03:13.623564Z"
+   committed-date="2006-04-22T18:39:19.810240Z"
+   checksum="ae3499f8682553dfdd2894ff01fe8e15"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.543449Z"/>
+<entry
+   committed-rev="89"
+   name="common.h"
+   text-time="2006-05-04T04:03:13.633579Z"
+   committed-date="2006-04-22T23:29:22.989577Z"
+   checksum="08743c41573ca9829989f2660e100f94"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.553464Z"/>
+</wc-entries>

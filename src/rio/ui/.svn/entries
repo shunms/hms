@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="222"
+   name=""
+   committed-date="2006-05-05T00:10:17.186830Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/rio/ui"
+   last-author="john"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="110"
+   name="customer_edit.ui"
+   text-time="2006-05-04T04:03:17.368950Z"
+   committed-date="2006-04-23T18:35:38.565088Z"
+   checksum="00425aeaa2177fed1ab67ccd11682926"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:16.808144Z"/>
+<entry
+   committed-rev="164"
+   name="guest_edit.ui"
+   text-time="2006-05-04T04:03:17.378964Z"
+   committed-date="2006-04-29T17:58:16.841436Z"
+   checksum="bac42443fc4240c6ab71c9b836ac0753"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:16.828172Z"/>
+<entry
+   committed-rev="166"
+   name="room_resv_chooser.ui"
+   text-time="2006-05-04T04:03:17.429036Z"
+   committed-date="2006-04-29T19:54:53.956344Z"
+   checksum="f8ed28318c7c3a003bd2cd38f7f304f4"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:17.068518Z"/>
+<entry
+   committed-rev="222"
+   name="room_resv_edit.ui"
+   text-time="2006-05-05T15:07:50.158332Z"
+   committed-date="2006-05-05T00:10:17.186830Z"
+   checksum="3cbc2fe7e4dfd60d6530b4df6c28bb77"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-05T15:07:50.148318Z"/>
+<entry
+   committed-rev="171"
+   name="checkin_confirm.ui"
+   text-time="2006-05-04T04:03:17.449065Z"
+   committed-date="2006-04-30T00:35:19.766811Z"
+   checksum="83141bc0537cfda38159a48644b8f6c8"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:17.338907Z"/>
+<entry
+   committed-rev="215"
+   name="checkout_confirm.ui"
+   text-time="2006-05-04T04:03:17.459080Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="8a1a1da2c242e9f4e70a994c3dcc4d37"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:17.348921Z"/>
+</wc-entries>

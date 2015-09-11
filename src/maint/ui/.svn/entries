@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="264"
+   name=""
+   committed-date="2006-05-06T04:01:12.177724Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/maint/ui"
+   last-author="lchekuri"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="264"
+   name="service_maint.ui"
+   text-time="2006-05-06T14:58:21.279230Z"
+   committed-date="2006-05-06T04:01:12.177724Z"
+   checksum="e2167ad8ba0733ba15dea148e705d865"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-06T14:58:21.259201Z"/>
+</wc-entries>

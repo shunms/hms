@@ -1,0 +1,471 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Customer_Edit_Ui</class>
+ <widget class="QWidget" name="Customer_Edit_Ui" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>895</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBox" >
+     <property name="title" >
+      <string>Customer Information</string>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item row="5" column="0" colspan="3" >
+       <widget class="QTabWidget" name="tabWidget" >
+        <widget class="QWidget" name="contact" >
+         <attribute name="title" >
+          <string>Contact &amp;Address</string>
+         </attribute>
+         <layout class="QGridLayout" >
+          <property name="margin" >
+           <number>9</number>
+          </property>
+          <property name="spacing" >
+           <number>6</number>
+          </property>
+          <item row="5" column="1" >
+           <spacer>
+            <property name="orientation" >
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" >
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="1" >
+           <widget class="QLineEdit" name="contactState" />
+          </item>
+          <item row="2" column="0" >
+           <widget class="QLabel" name="label_9" >
+            <property name="text" >
+             <string>State/Region</string>
+            </property>
+            <property name="buddy" >
+             <cstring>contactState</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" >
+           <widget class="QLineEdit" name="contactCity" />
+          </item>
+          <item row="0" column="1" >
+           <widget class="QTextEdit" name="contactAddress" />
+          </item>
+          <item row="4" column="0" >
+           <widget class="QLabel" name="label_10" >
+            <property name="text" >
+             <string>Country</string>
+            </property>
+            <property name="buddy" >
+             <cstring>contactCountry</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" >
+           <widget class="QLabel" name="label_7" >
+            <property name="text" >
+             <string>Address</string>
+            </property>
+            <property name="buddy" >
+             <cstring>contactAddress</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1" >
+           <widget class="QLineEdit" name="contactCountry" />
+          </item>
+          <item row="1" column="0" >
+           <widget class="QLabel" name="label_8" >
+            <property name="text" >
+             <string>City</string>
+            </property>
+            <property name="buddy" >
+             <cstring>contactCity</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" >
+           <widget class="QLineEdit" name="contactZip" />
+          </item>
+          <item row="3" column="0" >
+           <widget class="QLabel" name="label_17" >
+            <property name="text" >
+             <string>Zip</string>
+            </property>
+            <property name="buddy" >
+             <cstring>contactZip</cstring>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="billing" >
+         <attribute name="title" >
+          <string>&amp;Billing Information</string>
+         </attribute>
+         <layout class="QGridLayout" >
+          <property name="margin" >
+           <number>9</number>
+          </property>
+          <property name="spacing" >
+           <number>6</number>
+          </property>
+          <item row="7" column="0" >
+           <widget class="QLabel" name="label_16" >
+            <property name="text" >
+             <string>Billing Preference</string>
+            </property>
+            <property name="buddy" >
+             <cstring>billingPreference</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1" >
+           <widget class="QComboBox" name="billingPreference" >
+            <property name="editable" >
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text" >
+              <string>Credit Card</string>
+             </property>
+            </item>
+            <item>
+             <property name="text" >
+              <string>Postal Mail</string>
+             </property>
+            </item>
+            <item>
+             <property name="text" >
+              <string>Electonic Mail</string>
+             </property>
+            </item>
+            <item>
+             <property name="text" >
+              <string>Pay on Check-In</string>
+             </property>
+            </item>
+            <item>
+             <property name="text" >
+              <string>Pay on Check-Out</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="2" >
+           <widget class="QCheckBox" name="sameBillingToggle" >
+            <property name="text" >
+             <string>Billing Address same as Contact Address</string>
+            </property>
+            <property name="checked" >
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" >
+           <widget class="QLabel" name="label_13" >
+            <property name="text" >
+             <string>City</string>
+            </property>
+            <property name="buddy" >
+             <cstring>billingCity</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" >
+           <widget class="QLabel" name="label_11" >
+            <property name="text" >
+             <string>State/Region</string>
+            </property>
+            <property name="buddy" >
+             <cstring>billingState</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0" >
+           <widget class="QLabel" name="label_15" >
+            <property name="text" >
+             <string>Credit Card #</string>
+            </property>
+            <property name="buddy" >
+             <cstring>ccNumber</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" >
+           <widget class="QLabel" name="label_14" >
+            <property name="text" >
+             <string>Address</string>
+            </property>
+            <property name="buddy" >
+             <cstring>billingAddress</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1" >
+           <widget class="QLineEdit" name="ccNumber" />
+          </item>
+          <item row="1" column="1" >
+           <widget class="QTextEdit" name="billingAddress" >
+            <property name="enabled" >
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1" >
+           <widget class="QLineEdit" name="billingCountry" >
+            <property name="enabled" >
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" >
+           <widget class="QLineEdit" name="billingCity" >
+            <property name="enabled" >
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" >
+           <widget class="QLineEdit" name="billingState" >
+            <property name="enabled" >
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0" >
+           <widget class="QLabel" name="label_12" >
+            <property name="text" >
+             <string>Country</string>
+            </property>
+            <property name="buddy" >
+             <cstring>billingCountry</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1" >
+           <widget class="QLineEdit" name="billingZip" />
+          </item>
+          <item row="4" column="0" >
+           <widget class="QLabel" name="label_18" >
+            <property name="text" >
+             <string>Zip</string>
+            </property>
+            <property name="buddy" >
+             <cstring>billingZip</cstring>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="3" >
+       <widget class="QCheckBox" name="autoGuestToggle" >
+        <property name="text" >
+         <string>Create New Guest with this Information</string>
+        </property>
+       </widget>
+      </item>
+      <item rowspan="2" row="0" column="2" >
+       <widget class="QLabel" name="label_6" >
+        <property name="text" >
+         <string>If blank, the Customer Name will be autmatically
+set to "Firstname Lastname".</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" >
+       <widget class="QLabel" name="label_5" >
+        <property name="text" >
+         <string>Email</string>
+        </property>
+        <property name="buddy" >
+         <cstring>contactEmail</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" >
+       <widget class="QLabel" name="label_3" >
+        <property name="text" >
+         <string>Contact Last Name</string>
+        </property>
+        <property name="buddy" >
+         <cstring>contactLastName</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QComboBox" name="contactTitle" >
+        <item>
+         <property name="text" >
+          <string>Mr.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Ms.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Mrs.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Miss</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Dr.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Sir</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="label_4" >
+        <property name="text" >
+         <string>Contact Title</string>
+        </property>
+        <property name="buddy" >
+         <cstring>contactTitle</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="label" >
+        <property name="text" >
+         <string>Customer Name</string>
+        </property>
+        <property name="buddy" >
+         <cstring>customerName</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QLineEdit" name="customerName" />
+      </item>
+      <item row="4" column="1" >
+       <widget class="QLineEdit" name="contactEmail" />
+      </item>
+      <item row="3" column="1" >
+       <widget class="QLineEdit" name="contactLastName" />
+      </item>
+      <item row="2" column="1" >
+       <widget class="QLineEdit" name="contactFirstName" />
+      </item>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="label_2" >
+        <property name="text" >
+         <string>Contact First Name</string>
+        </property>
+        <property name="buddy" >
+         <cstring>contactFirstName</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" >
+     <property name="margin" >
+      <number>0</number>
+     </property>
+     <property name="spacing" >
+      <number>6</number>
+     </property>
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveCustomer" >
+       <property name="text" >
+        <string>&amp;Save Customer</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeCustomer" >
+       <property name="text" >
+        <string>&amp;Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <tabstops>
+  <tabstop>customerName</tabstop>
+  <tabstop>contactTitle</tabstop>
+  <tabstop>contactFirstName</tabstop>
+  <tabstop>contactLastName</tabstop>
+  <tabstop>contactEmail</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>contactAddress</tabstop>
+  <tabstop>contactCity</tabstop>
+  <tabstop>contactState</tabstop>
+  <tabstop>contactZip</tabstop>
+  <tabstop>contactCountry</tabstop>
+  <tabstop>sameBillingToggle</tabstop>
+  <tabstop>billingAddress</tabstop>
+  <tabstop>billingCity</tabstop>
+  <tabstop>billingState</tabstop>
+  <tabstop>billingZip</tabstop>
+  <tabstop>billingCountry</tabstop>
+  <tabstop>ccNumber</tabstop>
+  <tabstop>billingPreference</tabstop>
+  <tabstop>autoGuestToggle</tabstop>
+  <tabstop>saveCustomer</tabstop>
+  <tabstop>closeCustomer</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

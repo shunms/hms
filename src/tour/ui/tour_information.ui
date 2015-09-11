@@ -1,0 +1,158 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>tour_info</class>
+ <widget class="QWidget" name="tour_info" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>687</width>
+    <height>345</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>tourinfo</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>310</x>
+     <y>270</y>
+     <width>320</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" >
+    <property name="margin" >
+     <number>0</number>
+    </property>
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pbTourAdd" >
+      <property name="text" >
+       <string>Add</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbTourSave" >
+      <property name="text" >
+       <string>Save</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbTourDelete" >
+      <property name="text" >
+       <string>Delete</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pbTourCancel" >
+      <property name="text" >
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="gbTourinfo" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>661</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title" >
+    <string>Tour Information</string>
+   </property>
+   <widget class="QTableWidget" name="tblTourInfo" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>641</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text" >
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text" >
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text" >
+      <string>3</string>
+     </property>
+    </row>
+    <column>
+     <property name="text" >
+      <string>Tour</string>
+     </property>
+    </column>
+    <column>
+     <property name="text" >
+      <string>Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text" >
+      <string>StartTime</string>
+     </property>
+    </column>
+    <column>
+     <property name="text" >
+      <string>ArrivalTime</string>
+     </property>
+    </column>
+    <column>
+     <property name="text" >
+      <string>Total Capacity</string>
+     </property>
+    </column>
+    <column>
+     <property name="text" >
+      <string>Cost</string>
+     </property>
+    </column>
+    <column>
+     <property name="text" >
+      <string>Tour details</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pbTourCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>tour_info</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>585</x>
+     <y>292</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>595</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

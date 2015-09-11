@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="161"
+   name=""
+   committed-date="2006-04-29T15:50:12.421317Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/golf"
+   last-author="warren"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="160"
+   name="golfer.cpp"
+   text-time="2006-05-04T04:03:12.111390Z"
+   committed-date="2006-04-29T15:50:00.395540Z"
+   checksum="67ee0b8ce605be932ae8ee22f68283ec"
+   last-author="warren"
+   kind="file"
+   prop-time="2006-05-04T04:03:11.670756Z"/>
+<entry
+   committed-rev="159"
+   name="golfer.h"
+   text-time="2006-05-04T04:03:12.121404Z"
+   committed-date="2006-04-29T15:49:49.426862Z"
+   checksum="be38b62ee16670a97658425b220efd7f"
+   last-author="warren"
+   kind="file"
+   prop-time="2006-05-04T04:03:11.680771Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   committed-rev="161"
+   name="golf_reservation.h"
+   text-time="2006-05-04T04:03:12.131419Z"
+   committed-date="2006-04-29T15:50:12.421317Z"
+   checksum="372290203c278fb0446e9ce86f01ad4d"
+   last-author="warren"
+   kind="file"
+   prop-time="2006-05-04T04:03:12.061318Z"/>
+</wc-entries>

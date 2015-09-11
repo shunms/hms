@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2006-04-25T17:58:53.996593Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/doc/testcases"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="129"
+   name="sudhatestcases.xls"
+   text-time="2006-05-04T04:03:09.527675Z"
+   committed-date="2006-04-25T17:58:53.996593Z"
+   checksum="0210d85c9efab5d6048dd59eb9a9ca24"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:09.487617Z"/>
+</wc-entries>

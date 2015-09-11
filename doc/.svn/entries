@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2006-04-25T17:58:53.996593Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/doc"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   name="proposal"
+   kind="dir"/>
+<entry
+   name="projectmanagement"
+   kind="dir"/>
+<entry
+   name="designspec"
+   kind="dir"/>
+<entry
+   name="funcspec"
+   kind="dir"/>
+<entry
+   name="archspec"
+   kind="dir"/>
+<entry
+   name="api"
+   kind="dir"/>
+<entry
+   name="testcases"
+   kind="dir"/>
+</wc-entries>

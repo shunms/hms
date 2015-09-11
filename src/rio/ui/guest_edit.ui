@@ -1,0 +1,247 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Guest_Edit_Ui</class>
+ <widget class="QWidget" name="Guest_Edit_Ui" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>755</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBox" >
+     <property name="title" >
+      <string>Guest Information</string>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item row="5" column="1" colspan="2" >
+       <widget class="QTextEdit" name="guestNotes" />
+      </item>
+      <item row="6" column="1" colspan="2" >
+       <widget class="QLineEdit" name="customerHint" >
+        <property name="enabled" >
+         <bool>false</bool>
+        </property>
+        <property name="text" >
+         <string>Robertson Surveying LLC</string>
+        </property>
+        <property name="readOnly" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" >
+       <widget class="QLabel" name="label_8" >
+        <property name="text" >
+         <string>Customer</string>
+        </property>
+        <property name="buddy" >
+         <cstring>customerHint</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" >
+       <widget class="QLabel" name="label_7" >
+        <property name="text" >
+         <string>Notes</string>
+        </property>
+        <property name="buddy" >
+         <cstring>guestNotes</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1" >
+       <widget class="QDateEdit" name="dateOfBirth" >
+        <property name="displayFormat" >
+         <string>MM/dd/yyyy</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" >
+       <widget class="QLabel" name="label_6" >
+        <property name="text" >
+         <string>Date of Birth</string>
+        </property>
+        <property name="buddy" >
+         <cstring>dateOfBirth</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1" >
+       <widget class="QComboBox" name="sex" >
+        <item>
+         <property name="text" >
+          <string>Male</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Female</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0" >
+       <widget class="QLabel" name="label_5" >
+        <property name="text" >
+         <string>Sex</string>
+        </property>
+        <property name="buddy" >
+         <cstring>sex</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QComboBox" name="titleChooser" >
+        <item>
+         <property name="text" >
+          <string>Mr.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Ms.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Mrs.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Miss</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Dr.</string>
+         </property>
+        </item>
+        <item>
+         <property name="text" >
+          <string>Sir</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="2" >
+       <widget class="QLabel" name="label_4" >
+        <property name="text" >
+         <string>Include name and any intials.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="label" >
+        <property name="text" >
+         <string>Last Name</string>
+        </property>
+        <property name="buddy" >
+         <cstring>lastName</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" >
+       <widget class="QLineEdit" name="lastName" />
+      </item>
+      <item row="1" column="1" >
+       <widget class="QLineEdit" name="firstName" />
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="label_2" >
+        <property name="text" >
+         <string>First Name</string>
+        </property>
+        <property name="buddy" >
+         <cstring>firstName</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="label_3" >
+        <property name="text" >
+         <string>Title</string>
+        </property>
+        <property name="buddy" >
+         <cstring>titleChooser</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" >
+     <property name="margin" >
+      <number>0</number>
+     </property>
+     <property name="spacing" >
+      <number>6</number>
+     </property>
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveGuest" >
+       <property name="text" >
+        <string>&amp;Save Guest</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeGuest" >
+       <property name="text" >
+        <string>&amp;Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <tabstops>
+  <tabstop>titleChooser</tabstop>
+  <tabstop>firstName</tabstop>
+  <tabstop>lastName</tabstop>
+  <tabstop>sex</tabstop>
+  <tabstop>dateOfBirth</tabstop>
+  <tabstop>guestNotes</tabstop>
+  <tabstop>saveGuest</tabstop>
+  <tabstop>closeGuest</tabstop>
+  <tabstop>customerHint</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

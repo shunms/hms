@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="262"
+   name=""
+   committed-date="2006-05-05T22:49:29.526680Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/pmm/ui"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="276"/>
+<entry
+   committed-rev="262"
+   name="hotel_info.ui"
+   text-time="2006-05-05T21:57:00.000000Z"
+   committed-date="2006-05-05T22:49:29.526680Z"
+   checksum="e015aa9d0e99904fd63a918fce11d2dd"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:20.213040Z"/>
+</wc-entries>

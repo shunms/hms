@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="243"
+   name=""
+   committed-date="2006-05-05T17:19:51.073472Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/restaurant/ui"
+   last-author="pthippana"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="242"
+   name="tableReserveDialog.ui"
+   text-time="2006-05-05T21:20:32.959684Z"
+   committed-date="2006-05-05T17:19:29.595735Z"
+   checksum="a0bbd8d1c5fb3e8c7c135840104f57ae"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:32.709324Z"/>
+<entry
+   committed-rev="243"
+   name="tableReservation.ui"
+   text-time="2006-05-05T21:20:33.019771Z"
+   committed-date="2006-05-05T17:19:51.073472Z"
+   checksum="4e6d5d5e8ff99e8eeea9fffb3e857363"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:32.819483Z"/>
+</wc-entries>

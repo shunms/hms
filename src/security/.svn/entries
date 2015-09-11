@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="255"
+   name=""
+   committed-date="2006-05-05T20:25:30.571284Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/security"
+   last-author="lchekuri"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="226"
+   name="security_emp_details.h"
+   text-time="2006-05-05T15:07:50.498822Z"
+   committed-date="2006-05-05T14:26:32.465902Z"
+   checksum="7456cb9e710a5cc1cfa5b6165f0a0933"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-05T15:07:50.378649Z"/>
+<entry
+   committed-rev="201"
+   name="security_emp_details_base.cpp"
+   text-time="2006-05-04T04:03:23.377590Z"
+   committed-date="2006-05-02T10:46:05.487021Z"
+   checksum="221d38f2dd69650d22ba0c9020d5a1ad"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-04T04:03:22.896899Z"/>
+<entry
+   committed-rev="227"
+   name="ui_security.h"
+   text-time="2006-05-05T15:07:50.528865Z"
+   committed-date="2006-05-05T14:27:37.503658Z"
+   checksum="068d4ae53fe22e16bfbf1ee3670df247"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-05T15:07:50.438735Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   committed-rev="270"
+   name="security_emp_details_base.h"
+   text-time="2006-05-06T20:39:28.768243Z"
+   committed-date="2006-05-06T22:43:14.560402Z"
+   checksum="94f00b2a3d39758a16714b51b65c47b3"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:23.007057Z"
+   revision="270"/>
+<entry
+   committed-rev="255"
+   name="security_emp_details.cpp"
+   text-time="2006-05-05T21:20:34.982593Z"
+   committed-date="2006-05-05T20:25:30.571284Z"
+   checksum="c35a8e9d9863f4750be398ff742bffa6"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-05T21:20:34.962564Z"/>
+</wc-entries>

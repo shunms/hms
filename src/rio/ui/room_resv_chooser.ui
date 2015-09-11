@@ -1,0 +1,810 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Room_Resv_Chooser_Ui</class>
+ <widget class="QWidget" name="Room_Resv_Chooser_Ui" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QTabWidget" name="topTabs" >
+     <widget class="QWidget" name="newResvTab" >
+      <attribute name="title" >
+       <string>New</string>
+      </attribute>
+      <layout class="QVBoxLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <layout class="QGridLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item row="0" column="0" >
+            <widget class="QLabel" name="fromDateLabel" >
+             <property name="text" >
+              <string>From Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0" >
+            <widget class="QLabel" name="roomTypeLabel" >
+             <property name="text" >
+              <string>Room Type</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" >
+            <widget class="QDateEdit" name="newFromDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" >
+            <widget class="QComboBox" name="newRoomType" >
+             <item>
+              <property name="text" >
+               <string>Single</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>Double</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>Something Else</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>ANY</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0" >
+            <widget class="QLabel" name="toDateLabel" >
+             <property name="text" >
+              <string>To Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" >
+            <widget class="QDateEdit" name="newToDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_3" >
+           <property name="text" >
+            <string>Room Availability</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="newFillButton" >
+           <property name="text" >
+            <string>F&amp;ind</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="newResvResults" >
+         <property name="alternatingRowColors" >
+          <bool>true</bool>
+         </property>
+         <column>
+          <property name="text" >
+           <string>Room No.</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Description</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Status</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="findResvTab" >
+      <attribute name="title" >
+       <string>Find</string>
+      </attribute>
+      <layout class="QVBoxLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <layout class="QGridLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item row="5" column="1" >
+            <widget class="QDateEdit" name="findFromDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" >
+            <widget class="QLineEdit" name="findRoomNumber" />
+           </item>
+           <item row="2" column="0" >
+            <widget class="QLabel" name="roomNumberLabel" >
+             <property name="text" >
+              <string>Room Number</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" >
+            <widget class="QLineEdit" name="findFirstName" />
+           </item>
+           <item row="6" column="1" >
+            <widget class="QDateEdit" name="findToDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" >
+            <widget class="QLabel" name="firstNameLabel" >
+             <property name="text" >
+              <string>First Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1" >
+            <widget class="QCheckBox" name="findDatesToggle" >
+             <property name="text" >
+              <string>Search Using Dates</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" >
+            <widget class="QLabel" name="lastNameLabel" >
+             <property name="text" >
+              <string>Last Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" >
+            <widget class="QLineEdit" name="findLastName" />
+           </item>
+           <item row="6" column="0" >
+            <widget class="QLabel" name="toDateLabel" >
+             <property name="text" >
+              <string>To Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0" >
+            <widget class="QLabel" name="fromDateLabel" >
+             <property name="text" >
+              <string>From Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0" >
+            <widget class="QLabel" name="reservationStatusLabel" >
+             <property name="text" >
+              <string>Reservation Status</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" >
+            <widget class="QComboBox" name="findResvStatus" >
+             <item>
+              <property name="text" >
+               <string>Ready</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>Late</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>Active</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>Cancelled</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>Complete</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>ANY Incomplete</string>
+              </property>
+             </item>
+             <item>
+              <property name="text" >
+               <string>ANY</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_6" >
+           <property name="text" >
+            <string>Reserved Rooms</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="findFillButton" >
+           <property name="text" >
+            <string>F&amp;ind</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="findResvResults" >
+         <property name="alternatingRowColors" >
+          <bool>true</bool>
+         </property>
+         <column>
+          <property name="text" >
+           <string>Room No.</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Guest</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Reserved By</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Status</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="checkInTab" >
+      <attribute name="title" >
+       <string>Check-In</string>
+      </attribute>
+      <layout class="QVBoxLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <layout class="QGridLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item row="5" column="0" >
+            <widget class="QLabel" name="label_12" >
+             <property name="text" >
+              <string>To Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1" >
+            <widget class="QDateEdit" name="checkinFromDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" >
+            <widget class="QCheckBox" name="checkinDatesToggle" >
+             <property name="text" >
+              <string>Search Using Dates</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" >
+            <widget class="QLineEdit" name="checkinLastName" />
+           </item>
+           <item row="5" column="1" >
+            <widget class="QDateEdit" name="checkinToDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" >
+            <widget class="QLabel" name="label_13" >
+             <property name="text" >
+              <string>From Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" >
+            <widget class="QLabel" name="lastNameLabel" >
+             <property name="text" >
+              <string>Last Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" >
+            <widget class="QLineEdit" name="checkinRoomNumber" />
+           </item>
+           <item row="2" column="0" >
+            <widget class="QLabel" name="roomNumberLabel" >
+             <property name="text" >
+              <string>Room Number</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" >
+            <widget class="QLineEdit" name="checkinFirstName" />
+           </item>
+           <item row="0" column="0" >
+            <widget class="QLabel" name="firstNameLabel" >
+             <property name="text" >
+              <string>First Name</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_22" >
+           <property name="text" >
+            <string>Check In Guests</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="walkInButton" >
+           <property name="text" >
+            <string>Walk-In</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="checkinFillButton" >
+           <property name="text" >
+            <string>F&amp;ind</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="checkinResvResults" >
+         <property name="alternatingRowColors" >
+          <bool>true</bool>
+         </property>
+         <column>
+          <property name="text" >
+           <string>Room No.</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Guest</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Reserved By</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Status</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="checkOutTab" >
+      <attribute name="title" >
+       <string>Check-Out</string>
+      </attribute>
+      <layout class="QVBoxLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <layout class="QGridLayout" >
+           <property name="margin" >
+            <number>0</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item row="5" column="0" >
+            <widget class="QLabel" name="label_17" >
+             <property name="text" >
+              <string>To Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1" >
+            <widget class="QDateEdit" name="checkoutFromDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" >
+            <widget class="QCheckBox" name="checkoutDatesToggle" >
+             <property name="text" >
+              <string>Search Using Dates</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" >
+            <widget class="QLineEdit" name="checkoutLastName" />
+           </item>
+           <item row="5" column="1" >
+            <widget class="QDateEdit" name="checkoutToDate" >
+             <property name="displayFormat" >
+              <string>MM/dd/yyyy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" >
+            <widget class="QLabel" name="label_18" >
+             <property name="text" >
+              <string>From Date</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" >
+            <widget class="QLabel" name="label_19" >
+             <property name="text" >
+              <string>Last Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" >
+            <widget class="QLineEdit" name="checkoutRoomNumber" />
+           </item>
+           <item row="2" column="0" >
+            <widget class="QLabel" name="label_20" >
+             <property name="text" >
+              <string>Room Number</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" >
+            <widget class="QLineEdit" name="checkoutFirstName" />
+           </item>
+           <item row="0" column="0" >
+            <widget class="QLabel" name="label_21" >
+             <property name="text" >
+              <string>First Name</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_29" >
+           <property name="text" >
+            <string>Check Out Guests</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="checkoutFillButton" >
+           <property name="text" >
+            <string>F&amp;ind</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTreeWidget" name="checkoutResvResults" >
+         <property name="alternatingRowColors" >
+          <bool>true</bool>
+         </property>
+         <column>
+          <property name="text" >
+           <string>Room No.</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Guest</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Reserved By</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Status</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <tabstops>
+  <tabstop>topTabs</tabstop>
+  <tabstop>newFromDate</tabstop>
+  <tabstop>newToDate</tabstop>
+  <tabstop>newRoomType</tabstop>
+  <tabstop>newFillButton</tabstop>
+  <tabstop>newResvResults</tabstop>
+  <tabstop>findFirstName</tabstop>
+  <tabstop>findLastName</tabstop>
+  <tabstop>findRoomNumber</tabstop>
+  <tabstop>findResvStatus</tabstop>
+  <tabstop>findDatesToggle</tabstop>
+  <tabstop>findFromDate</tabstop>
+  <tabstop>findToDate</tabstop>
+  <tabstop>findFillButton</tabstop>
+  <tabstop>findResvResults</tabstop>
+  <tabstop>checkinFirstName</tabstop>
+  <tabstop>checkinLastName</tabstop>
+  <tabstop>checkinRoomNumber</tabstop>
+  <tabstop>checkinDatesToggle</tabstop>
+  <tabstop>checkinFromDate</tabstop>
+  <tabstop>checkinToDate</tabstop>
+  <tabstop>walkInButton</tabstop>
+  <tabstop>checkinFillButton</tabstop>
+  <tabstop>checkinResvResults</tabstop>
+  <tabstop>checkoutFirstName</tabstop>
+  <tabstop>checkoutLastName</tabstop>
+  <tabstop>checkoutRoomNumber</tabstop>
+  <tabstop>checkoutDatesToggle</tabstop>
+  <tabstop>checkoutFromDate</tabstop>
+  <tabstop>checkoutToDate</tabstop>
+  <tabstop>checkoutFillButton</tabstop>
+  <tabstop>checkoutResvResults</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

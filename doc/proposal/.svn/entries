@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="46"
+   name=""
+   committed-date="2006-04-14T14:55:59.712384Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/doc/proposal"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="46"
+   name="HMS_Proposal_revised.doc"
+   text-time="2006-05-04T04:00:32.962545Z"
+   committed-date="2006-04-14T14:55:59.712384Z"
+   checksum="fb0e8a41f7fdcdafa5b794dcc52ae983"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:00:32.271552Z"/>
+<entry
+   committed-rev="46"
+   name="HAS_Proposal.doc"
+   text-time="2006-05-04T04:00:32.972560Z"
+   committed-date="2006-04-14T14:55:59.712384Z"
+   checksum="02772ef878079f9369a3864c14766279"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:00:32.952531Z"/>
+</wc-entries>

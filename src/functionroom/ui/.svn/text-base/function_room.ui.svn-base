@@ -1,0 +1,523 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Function_Room</class>
+ <widget class="QWidget" name="Function_Room" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>function_room</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>731</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="tab" >
+    <attribute name="title" >
+     <string>Function Room Availability</string>
+    </attribute>
+    <widget class="QPushButton" name="pbFuncRoomReserve" >
+     <property name="geometry" >
+      <rect>
+       <x>340</x>
+       <y>340</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Reserve</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>671</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font" >
+      <font>
+       <family>MS Shell Dlg</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="title" >
+      <string>Search</string>
+     </property>
+     <widget class="QLabel" name="FuncRoomDate" >
+      <property name="geometry" >
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>47</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="text" >
+       <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:10pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Date&lt;/p>&lt;/body>&lt;/html></string>
+      </property>
+      <property name="buddy" >
+       <cstring>dtRLSearchDate</cstring>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FuncRoomStatus" >
+      <property name="geometry" >
+       <rect>
+        <x>290</x>
+        <y>20</y>
+        <width>47</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="text" >
+       <string>Status</string>
+      </property>
+      <property name="buddy" >
+       <cstring>cbSearchVacant</cstring>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dtSearchDate" >
+      <property name="geometry" >
+       <rect>
+        <x>140</x>
+        <y>50</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="FuncRoomCapacity" >
+      <property name="geometry" >
+       <rect>
+        <x>70</x>
+        <y>20</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text" >
+       <string>Capacity</string>
+      </property>
+      <property name="buddy" >
+       <cstring>lnSearchCapacity</cstring>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbFuncRoomSearch" >
+      <property name="geometry" >
+       <rect>
+        <x>390</x>
+        <y>50</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text" >
+       <string>Search</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbSearchVacant" >
+      <property name="geometry" >
+       <rect>
+        <x>360</x>
+        <y>20</y>
+        <width>111</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text" >
+        <string>Vacant</string>
+       </property>
+      </item>
+      <item>
+       <property name="text" >
+        <string>Reserved</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lnSearchCapacity" >
+      <property name="geometry" >
+       <rect>
+        <x>140</x>
+        <y>20</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pbFuncRoomCancel" >
+     <property name="geometry" >
+      <rect>
+       <x>430</x>
+       <y>340</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Cancel</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tblFuncRoomAvail" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>691</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="font" >
+      <font>
+       <family>MS Shell Dlg</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="lineWidth" >
+      <number>1</number>
+     </property>
+     <property name="selectionMode" >
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior" >
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <row>
+      <property name="text" >
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>4</string>
+      </property>
+     </row>
+     <column>
+      <property name="text" >
+       <string>Function Room #</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Capacity</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Status</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Bill Amount</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2" >
+    <attribute name="title" >
+     <string>Reserved list</string>
+    </attribute>
+    <widget class="QLabel" name="RLDate" >
+     <property name="geometry" >
+      <rect>
+       <x>380</x>
+       <y>40</y>
+       <width>41</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Date&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+     <property name="buddy" >
+      <cstring>dtRLSearchDate</cstring>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbRLsearch" >
+     <property name="geometry" >
+      <rect>
+       <x>450</x>
+       <y>90</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Search</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="RLCustLastName" >
+     <property name="geometry" >
+      <rect>
+       <x>60</x>
+       <y>80</y>
+       <width>92</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">Last Name&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+     <property name="buddy" >
+      <cstring>lnCustLastName</cstring>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lnCustFirstName" >
+     <property name="geometry" >
+      <rect>
+       <x>180</x>
+       <y>40</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lnCustLastName" >
+     <property name="geometry" >
+      <rect>
+       <x>180</x>
+       <y>80</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="dtRLSearchDate" >
+     <property name="geometry" >
+      <rect>
+       <x>440</x>
+       <y>40</y>
+       <width>110</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbRLclose" >
+     <property name="geometry" >
+      <rect>
+       <x>460</x>
+       <y>300</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Close</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbRLclear" >
+     <property name="geometry" >
+      <rect>
+       <x>360</x>
+       <y>300</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Clear</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="RLCustFirstName" >
+     <property name="geometry" >
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>92</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">First Name&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+     <property name="buddy" >
+      <cstring>lnCustFirstName</cstring>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tblReserveList" >
+     <property name="geometry" >
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>721</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="font" >
+      <font>
+       <family>MS Shell Dlg</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="lineWidth" >
+      <number>1</number>
+     </property>
+     <row>
+      <property name="text" >
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>4</string>
+      </property>
+     </row>
+     <column>
+      <property name="text" >
+       <string>Function Room #</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Capacity</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string> Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>First name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Last name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Hotel Room #</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Bill Amount</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pbFuncRoomCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Function_Room</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>492</x>
+     <y>421</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>549</x>
+     <y>45</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbRLclose</sender>
+   <signal>clicked()</signal>
+   <receiver>Function_Room</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>511</x>
+     <y>386</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>557</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tblFuncRoomAvail</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>pbFuncRoomReserve</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>312</x>
+     <y>270</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>353</x>
+     <y>424</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="262"
+   name=""
+   committed-date="2006-05-05T22:49:29.526680Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/pmm"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="276"/>
+<entry
+   committed-rev="212"
+   name="room_types_base.h"
+   text-time="2006-05-04T04:03:20.253097Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="72f40421d59f25fcdd5b28147e17dafd"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.009872Z"/>
+<entry
+   committed-rev="212"
+   name="golf_info.cpp"
+   text-time="2006-05-04T04:03:20.263112Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="6fade38c0fb8d8439fb45a8e49b1a0f2"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.019886Z"/>
+<entry
+   committed-rev="212"
+   name="func_room_info.cpp"
+   text-time="2006-05-04T04:03:20.303169Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="f258ff0b496adbf48d93e52a96c2a551"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.029900Z"/>
+<entry
+   committed-rev="212"
+   name="restaurant_info.cpp"
+   text-time="2006-05-04T04:03:20.313184Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="a9bd7d49a601a72fb623bb07061871d8"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.039915Z"/>
+<entry
+   committed-rev="186"
+   name="hotel_base.cpp"
+   text-time="2006-05-04T04:03:20.323198Z"
+   committed-date="2006-04-30T17:03:23.886290Z"
+   checksum="c17c04c7d51a49573997bc62a360c15c"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.049929Z"/>
+<entry
+   committed-rev="261"
+   name="room_base.cpp"
+   text-time="2006-05-06T14:58:21.008841Z"
+   committed-date="2006-05-05T22:28:03.989148Z"
+   checksum="15bf1808bd95821994ddfeab62cee39b"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-06T14:58:20.988812Z"/>
+<entry
+   committed-rev="212"
+   name="golf_info.h"
+   text-time="2006-05-04T04:03:20.343227Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="298f768b1d5bd4b14b9d86cc4a4370f9"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.059944Z"/>
+<entry
+   committed-rev="212"
+   name="func_room_info.h"
+   text-time="2006-05-04T04:03:20.353241Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="bb49633d981680481453adc5cb23cd38"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.260232Z"/>
+<entry
+   committed-rev="212"
+   name="restaurant_info.h"
+   text-time="2006-05-04T04:03:20.363256Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="36775d78651087e3e2f7c67fdaccdcbb"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.280260Z"/>
+<entry
+   committed-rev="186"
+   name="hotel_base.h"
+   text-time="2006-05-04T04:03:20.383284Z"
+   committed-date="2006-04-30T17:03:23.886290Z"
+   checksum="4f9b0442795f7964b81ecdd6d5b5346b"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.530620Z"/>
+<entry
+   committed-rev="212"
+   name="room_base.h"
+   text-time="2006-05-04T04:03:20.393299Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="4c704f8b403ca9c1da346c7c86472fba"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.560664Z"/>
+<entry
+   committed-rev="187"
+   name="tablecombobox.cpp"
+   text-time="2006-05-04T04:03:20.403313Z"
+   committed-date="2006-04-30T17:04:33.378042Z"
+   checksum="cc094a1e08800bd8c36c079d8022b628"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.570678Z"/>
+<entry
+   committed-rev="212"
+   name="owner_base.cpp"
+   text-time="2006-05-04T04:03:20.413328Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="2dd653dd18617c4c71e7279029a2dfaa"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.760952Z"/>
+<entry
+   committed-rev="212"
+   name="tables_info.cpp"
+   text-time="2006-05-04T04:03:20.433356Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="ac19139c123c6995ab01ba687cc8ddb5"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.780980Z"/>
+<entry
+   committed-rev="187"
+   name="tablecombobox.h"
+   text-time="2006-05-04T04:03:20.423342Z"
+   committed-date="2006-04-30T17:04:33.378042Z"
+   checksum="5793fac18ff93bf04575c0d98b0235f7"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:18.780980Z"/>
+<entry
+   committed-rev="252"
+   name="hotel_info.cpp"
+   text-time="2006-05-05T21:20:34.221499Z"
+   committed-date="2006-05-05T19:03:30.944844Z"
+   checksum="c2e4c90342bb2acd732387dabb578e83"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-05T21:20:33.961124Z"/>
+<entry
+   committed-rev="187"
+   name="rates_increase.cpp"
+   text-time="2006-05-04T04:03:20.463400Z"
+   committed-date="2006-04-30T17:04:33.378042Z"
+   checksum="ff15159e6ebee1aa81632e591223130e"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:19.031340Z"/>
+<entry
+   committed-rev="187"
+   name="ui_hotel_info.h"
+   text-time="2006-05-06T14:58:20.257761Z"
+   committed-date="2006-04-30T17:04:33.378042Z"
+   checksum="fd76b4d752c8b20f1a2a15bdd04bc318"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:19.361816Z"/>
+<entry
+   committed-rev="212"
+   name="owner_base.h"
+   text-time="2006-05-04T04:03:20.483428Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="925df533b1d57e6adccc192244553236"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:19.612176Z"/>
+<entry
+   committed-rev="212"
+   name="room_types_base.cpp"
+   text-time="2006-05-04T04:03:20.493443Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="70330b317e52b1a8137fee18b4247a21"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:19.622190Z"/>
+<entry
+   committed-rev="212"
+   name="tables_info.h"
+   text-time="2006-05-04T04:03:20.503457Z"
+   committed-date="2006-05-03T15:56:25.687447Z"
+   checksum="c4a9387fcd9949405d5b4834e3df8590"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-04T04:03:19.632204Z"/>
+<entry
+   committed-rev="252"
+   name="hotel_info.h"
+   text-time="2006-05-05T21:20:34.632089Z"
+   committed-date="2006-05-05T19:03:30.944844Z"
+   checksum="6a92ff103c2522595f92a2f722144b79"
+   last-author="spatil"
+   kind="file"
+   prop-time="2006-05-05T21:20:34.061268Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   committed-rev="187"
+   name="rates_increase.h"
+   text-time="2006-05-04T04:03:20.533500Z"
+   committed-date="2006-04-30T17:04:33.378042Z"
+   checksum="a87235eb058552ce48c19524d7e5552a"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:19.882564Z"/>
+</wc-entries>

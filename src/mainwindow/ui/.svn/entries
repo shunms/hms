@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2006-05-05T00:53:14.466647Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/mainwindow/ui"
+   last-author="john"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="74"
+   name="login.ui"
+   text-time="2006-05-04T04:03:25.640844Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="b3c1de511c0594df17237d2cf8432ad7"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:25.049995Z"/>
+<entry
+   committed-rev="74"
+   name="about.ui"
+   text-time="2006-05-04T04:03:25.650859Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="8c3e7419f75eda3ce4fc284a6b8c8565"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:25.220240Z"/>
+<entry
+   committed-rev="223"
+   name="main_window.ui"
+   text-time="2006-05-05T15:07:50.659052Z"
+   committed-date="2006-05-05T00:53:14.466647Z"
+   checksum="fdbe205baba3199530743424f8fadaeb"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-05T15:07:50.639023Z"/>
+<entry
+   committed-rev="74"
+   name="softlinks.ui"
+   text-time="2006-05-04T04:03:25.690916Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="500224a48935f976685cf16d0714cf22"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:25.610801Z"/>
+<entry
+   committed-rev="74"
+   name="default_view.ui"
+   text-time="2006-05-04T04:03:25.700931Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="679f26b3c722dde052735b2ad9c90c19"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:25.620816Z"/>
+</wc-entries>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="155"
+   name=""
+   committed-date="2006-04-28T23:27:18.635318Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/giftcerts"
+   last-author="warren"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="155"
+   name="gift_certificate.h"
+   text-time="2006-05-04T04:03:21.324638Z"
+   committed-date="2006-04-28T23:27:18.635318Z"
+   checksum="f454db6516e11507f9f7379f4931df9e"
+   last-author="warren"
+   kind="file"
+   prop-time="2006-05-04T04:03:21.194451Z"/>
+<entry
+   committed-rev="154"
+   name="gift_certificate.cpp"
+   text-time="2006-05-04T04:03:21.334652Z"
+   committed-date="2006-04-28T23:27:04.332326Z"
+   checksum="e4163d7d7341678e9956aee9e7311fbf"
+   last-author="warren"
+   kind="file"
+   prop-time="2006-05-04T04:03:21.204465Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+</wc-entries>

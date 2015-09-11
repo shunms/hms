@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="148"
+   name=""
+   committed-date="2006-04-27T22:51:52.784108Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/golf/ui"
+   last-author="warren"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="148"
+   name="Golf Course.ui"
+   text-time="2006-05-04T04:03:11.991217Z"
+   committed-date="2006-04-27T22:51:52.784108Z"
+   checksum="5fa15e340d2a1173fe35edca98ec7313"
+   last-author="warren"
+   kind="file"
+   prop-time="2006-05-04T04:03:11.971188Z"/>
+</wc-entries>

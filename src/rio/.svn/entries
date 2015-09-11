@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="266"
+   name=""
+   committed-date="2006-05-06T15:54:59.791655Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/rio"
+   last-author="john"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="164"
+   name="guest_edit_ui.h"
+   text-time="2006-05-04T04:03:17.679396Z"
+   committed-date="2006-04-29T17:58:16.841436Z"
+   checksum="5c6c6092bddb25a43b112f71399db5b8"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.974068Z"/>
+<entry
+   committed-rev="53"
+   name="room_reservation_log.cpp"
+   text-time="2006-05-04T04:03:17.689411Z"
+   committed-date="2006-04-15T19:47:53.150488Z"
+   checksum="7dbd571b24c9066f72662b8a9ec9905b"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:13.984083Z"/>
+<entry
+   committed-rev="221"
+   name="room_resv_chooser_ui.h"
+   text-time="2006-05-04T21:52:05.242846Z"
+   committed-date="2006-05-04T20:11:33.611698Z"
+   checksum="51aa7c45ea09b282a86458ee8ceb0ca3"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T21:52:05.102644Z"/>
+<entry
+   committed-rev="225"
+   name="customer_base.h"
+   text-time="2006-05-05T15:07:50.228433Z"
+   committed-date="2006-05-05T12:44:20.459222Z"
+   checksum="2e4dac1e407b2a979abdde93e19caaba"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-05T15:07:49.978073Z"/>
+<entry
+   committed-rev="266"
+   name="customer.cpp"
+   text-time="2006-05-06T17:09:50.483348Z"
+   committed-date="2006-05-06T15:54:59.791655Z"
+   checksum="5486fbbf26a980528acc75dcdc8709c0"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T17:09:50.393219Z"/>
+<entry
+   committed-rev="265"
+   name="room_reservation.h"
+   text-time="2006-05-06T15:50:50.487569Z"
+   committed-date="2006-05-06T15:43:31.770586Z"
+   checksum="7995d100096f489bdfa85fae16360054"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T15:50:49.816604Z"/>
+<entry
+   committed-rev="265"
+   name="customer_edit_ui.cpp"
+   text-time="2006-05-06T15:50:50.517612Z"
+   committed-date="2006-05-06T15:43:31.770586Z"
+   checksum="8a561df0965e694f7b58595ead2d760d"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T15:50:49.836633Z"/>
+<entry
+   committed-rev="215"
+   name="room_reservation_log.h"
+   text-time="2006-05-04T04:03:17.749497Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="46db88704d5cf703e42e134d3cd4a964"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:14.524860Z"/>
+<entry
+   committed-rev="265"
+   name="customer.h"
+   text-time="2006-05-06T15:50:50.527627Z"
+   committed-date="2006-05-06T15:43:31.770586Z"
+   checksum="3f5b2ee7ac1b708b1c02bc87778988da"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T15:50:49.856662Z"/>
+<entry
+   committed-rev="215"
+   name="customer_edit_ui.h"
+   text-time="2006-05-04T04:03:17.769526Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="776a55ed5aa2a7b69de6951729dccf56"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:14.775220Z"/>
+<entry
+   committed-rev="266"
+   name="room_resv_edit_ui.cpp"
+   text-time="2006-05-06T17:09:50.493363Z"
+   committed-date="2006-05-06T15:54:59.791655Z"
+   checksum="310c4045328eebdace95eab5adfc84eb"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T17:09:50.433276Z"/>
+<entry
+   committed-rev="185"
+   name="checkin_confirm_ui.cpp"
+   text-time="2006-05-04T04:03:17.799569Z"
+   committed-date="2006-04-30T16:53:16.491210Z"
+   checksum="8fe130fec3fc9a2ee59d0d6837947add"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:14.865350Z"/>
+<entry
+   committed-rev="218"
+   name="checkout_confirm_ui.cpp"
+   text-time="2006-05-04T04:03:17.809584Z"
+   committed-date="2006-05-04T01:00:55.454341Z"
+   checksum="6fdfdb6d9430aa82ea7c83ea39df8d9a"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.115710Z"/>
+<entry
+   committed-rev="105"
+   name="guest_base.cpp"
+   text-time="2006-05-04T04:03:17.819598Z"
+   committed-date="2006-04-23T14:38:51.414029Z"
+   checksum="a410a0be34bced25c9687a212709b61b"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.125724Z"/>
+<entry
+   committed-rev="265"
+   name="room_resv_edit_ui.h"
+   text-time="2006-05-06T15:50:50.577699Z"
+   committed-date="2006-05-06T15:43:31.770586Z"
+   checksum="0350bfb1c92effba8d11e174dad4e935"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T15:50:50.207166Z"/>
+<entry
+   committed-rev="171"
+   name="checkin_confirm_ui.h"
+   text-time="2006-05-04T04:03:17.839627Z"
+   committed-date="2006-04-30T00:35:19.766811Z"
+   checksum="16d79350caaa5724d262a3d486e59358"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.376084Z"/>
+<entry
+   committed-rev="215"
+   name="checkout_confirm_ui.h"
+   text-time="2006-05-04T04:03:17.849641Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="2581784f3904e2c6d22722531e159557"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.386099Z"/>
+<entry
+   committed-rev="215"
+   name="guest_base.h"
+   text-time="2006-05-04T04:03:17.869670Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="cef22d4de7817ded6b8b2dad84478821"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.626444Z"/>
+<entry
+   committed-rev="170"
+   name="guest.cpp"
+   text-time="2006-05-04T04:03:17.879684Z"
+   committed-date="2006-04-29T23:40:11.879487Z"
+   checksum="a799eb93bcea9da530bb5149776edd25"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.656488Z"/>
+<entry
+   committed-rev="215"
+   name="room_reservation_base.cpp"
+   text-time="2006-05-04T04:03:17.889699Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="0195970196f9aeaf2b34616987734155"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.716574Z"/>
+<entry
+   committed-rev="164"
+   name="guest_edit_ui.cpp"
+   text-time="2006-05-04T04:03:17.899713Z"
+   committed-date="2006-04-29T17:58:16.841436Z"
+   checksum="26a471a0397c5dfde0b1fd31694c7f95"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:15.966934Z"/>
+<entry
+   committed-rev="222"
+   name="room_resv_chooser_ui.cpp"
+   text-time="2006-05-05T15:07:50.298534Z"
+   committed-date="2006-05-05T00:10:17.186830Z"
+   checksum="d8f7c40b534d1d21a47822700a1b7595"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-05T15:07:50.068202Z"/>
+<entry
+   committed-rev="225"
+   name="customer_base.cpp"
+   text-time="2006-05-05T15:07:50.348606Z"
+   committed-date="2006-05-05T12:44:20.459222Z"
+   checksum="19738ca139520c964deed6422bf80e41"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-05T15:07:50.108260Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   committed-rev="215"
+   name="guest.h"
+   text-time="2006-05-04T04:03:17.929756Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="f2f44d60271b3d8b40574de075cf3d1d"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:16.337467Z"/>
+<entry
+   committed-rev="215"
+   name="room_reservation_base.h"
+   text-time="2006-05-04T04:03:17.939771Z"
+   committed-date="2006-05-03T22:18:48.957056Z"
+   checksum="36a90c5bdf7a4373123ee529703a35b2"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:16.557784Z"/>
+<entry
+   committed-rev="265"
+   name="room_reservation.cpp"
+   text-time="2006-05-06T15:50:50.597728Z"
+   committed-date="2006-05-06T15:43:31.770586Z"
+   checksum="f9fcc163533e0a98207195f7ee2c363f"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-06T15:50:50.467540Z"/>
+</wc-entries>

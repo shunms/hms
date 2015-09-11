@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="48"
+   name=""
+   committed-date="2006-04-14T14:57:07.858700Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/doc/funcspec"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="48"
+   name="Functional Spec_0.1.doc"
+   text-time="2006-05-04T04:02:39.053856Z"
+   committed-date="2006-04-14T14:57:07.858700Z"
+   checksum="28bf7385f52e614819b119b257defd4b"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:02:38.953712Z"/>
+</wc-entries>

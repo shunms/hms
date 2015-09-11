@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="264"
+   name=""
+   committed-date="2006-05-06T04:01:12.177724Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/maint"
+   last-author="lchekuri"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="264"
+   name="service_maint_base.cpp"
+   text-time="2006-05-06T14:58:21.339316Z"
+   committed-date="2006-05-06T04:01:12.177724Z"
+   checksum="2b518fe53f49e117c0856a176ef014c6"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-06T14:58:21.088956Z"/>
+<entry
+   committed-rev="264"
+   name="service_maint_base.h"
+   text-time="2006-05-06T14:58:21.349331Z"
+   committed-date="2006-05-06T04:01:12.177724Z"
+   checksum="3e4593ab70e7d054c2cd939191fd949c"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-06T14:58:21.098971Z"/>
+<entry
+   committed-rev="264"
+   name="service_maint.cpp"
+   text-time="2006-05-06T14:58:21.359345Z"
+   committed-date="2006-05-06T04:01:12.177724Z"
+   checksum="a9ce88e7b7e9871cd3fbc53e0e9c1b19"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-06T14:58:21.108985Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   committed-rev="264"
+   name="service_maint.h"
+   text-time="2006-05-06T14:58:21.429446Z"
+   committed-date="2006-05-06T04:01:12.177724Z"
+   checksum="e5de92faa3ce6798589194e042c5ddb1"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-06T14:58:21.299259Z"/>
+</wc-entries>

@@ -1,0 +1,73 @@
+/*****************************************************************************
+ * room_types_base.h - header file
+ *
+ * Author: Savitha Patil <patilsavitha@yahoo.com>
+ * Team: Softlinks <http://softlinks.nile.homelinux.net:8000>
+ *
+ * Created: 2006-04-24
+ *
+ ******************************************************************************/
+
+
+
+#ifndef ROOM_TYPES_BASE_H
+#define ROOM_TYPES_BASE_H
+
+
+#include <QObject>
+
+#include "common/common.h"
+
+
+/**
+* The Room_Types_Base class provides the foundation for the
+* data attributes of the Room_Types_Base class.
+*/
+class Room_Types_Base //: public QObject
+{
+    //Q_OBJECT
+
+    public:
+
+        /**
+        * Constructor for Room_Types_Base class.
+        */
+        Room_Types_Base( );
+
+		/**
+        * Destructor for Room_Types_Base class.
+        */
+        ~Room_Types_Base( );
+
+        /**
+        * Sets the room type.
+        */
+        void SetRoomType( QString type );
+
+        /**
+        * Sets the rate of the room.
+        */
+        void SetRoomRate( Price rate );
+
+        /**
+        * Gets the room type.
+        */
+        QString GetRoomType( );
+
+        /**
+        * Gets the rate of the room.
+        */
+        Price GetRoomRate( );
+
+    private:
+        QString roomType;
+        Price roomRate;
+
+};
+
+
+
+#endif
+
+// EOF
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="206"
+   name=""
+   committed-date="2006-05-02T14:15:18.262747Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/security/ui"
+   last-author="lchekuri"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="206"
+   name="security.ui"
+   text-time="2006-05-04T04:03:23.137244Z"
+   committed-date="2006-05-02T14:15:18.262747Z"
+   checksum="69224f49094db4692ddcefc6529b16b2"
+   last-author="lchekuri"
+   kind="file"
+   prop-time="2006-05-04T04:03:23.117216Z"/>
+</wc-entries>

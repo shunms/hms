@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2006-04-28T23:28:40.149301Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/shuttle/ui"
+   last-author="warren"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="149"
+   name="Airport Shuttle.ui"
+   text-time="2006-05-04T04:03:12.531995Z"
+   committed-date="2006-04-27T22:52:15.332049Z"
+   checksum="bce3663a4d26423cb06896866c18ab83"
+   last-author="warren"
+   kind="file"
+   prop-time="2006-05-04T04:03:12.511966Z"/>
+</wc-entries>

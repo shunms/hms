@@ -1,0 +1,544 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>security</class>
+ <widget class="QWidget" name="security" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Security</string>
+  </property>
+  <widget class="QTabWidget" name="security" >
+   <property name="geometry" >
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>651</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="Employee Details" >
+    <attribute name="title" >
+     <string>New</string>
+    </attribute>
+    <widget class="QLabel" name="labelEmp" >
+     <property name="geometry" >
+      <rect>
+       <x>60</x>
+       <y>30</y>
+       <width>68</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Employee ID&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditEmp" >
+     <property name="geometry" >
+      <rect>
+       <x>170</x>
+       <y>30</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelLname" >
+     <property name="geometry" >
+      <rect>
+       <x>60</x>
+       <y>70</y>
+       <width>59</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Last Name&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditLname" >
+     <property name="geometry" >
+      <rect>
+       <x>170</x>
+       <y>70</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelFname" >
+     <property name="geometry" >
+      <rect>
+       <x>60</x>
+       <y>110</y>
+       <width>58</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">First Name&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditFname" >
+     <property name="geometry" >
+      <rect>
+       <x>170</x>
+       <y>110</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelSex" >
+     <property name="geometry" >
+      <rect>
+       <x>60</x>
+       <y>150</y>
+       <width>47</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Sex&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxSex" >
+     <property name="geometry" >
+      <rect>
+       <x>170</x>
+       <y>150</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelEmail" >
+     <property name="geometry" >
+      <rect>
+       <x>60</x>
+       <y>190</y>
+       <width>47</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Email &lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditEmail" >
+     <property name="geometry" >
+      <rect>
+       <x>170</x>
+       <y>190</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelDpt" >
+     <property name="geometry" >
+      <rect>
+       <x>350</x>
+       <y>30</y>
+       <width>63</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Department&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelDsg" >
+     <property name="geometry" >
+      <rect>
+       <x>350</x>
+       <y>70</y>
+       <width>64</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Designation&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelPword" >
+     <property name="geometry" >
+      <rect>
+       <x>350</x>
+       <y>110</y>
+       <width>91</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Default Password&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxAcc" >
+     <property name="geometry" >
+      <rect>
+       <x>460</x>
+       <y>150</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelAcc" >
+     <property name="geometry" >
+      <rect>
+       <x>350</x>
+       <y>150</y>
+       <width>72</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A&lt;span style=" font-size:8pt;">ccess Level&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidgetCinfo" >
+     <property name="geometry" >
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>401</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="tab" >
+      <attribute name="title" >
+       <string>Contact info</string>
+      </attribute>
+      <widget class="QLabel" name="labelAdd" >
+       <property name="geometry" >
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text" >
+        <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A&lt;span style=" font-size:8pt;">ddress&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditAdd" >
+       <property name="geometry" >
+        <rect>
+         <x>100</x>
+         <y>20</y>
+         <width>291</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelCity" >
+       <property name="geometry" >
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text" >
+        <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">City&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditCity" >
+       <property name="geometry" >
+        <rect>
+         <x>100</x>
+         <y>60</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelState" >
+       <property name="geometry" >
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text" >
+        <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">State&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxState" >
+       <property name="geometry" >
+        <rect>
+         <x>100</x>
+         <y>100</y>
+         <width>111</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelZip" >
+       <property name="geometry" >
+        <rect>
+         <x>30</x>
+         <y>140</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text" >
+        <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Zipcode&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditZip" >
+       <property name="geometry" >
+        <rect>
+         <x>100</x>
+         <y>140</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelCntry" >
+       <property name="geometry" >
+        <rect>
+         <x>30</x>
+         <y>180</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text" >
+        <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Country&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditCntry" >
+       <property name="geometry" >
+        <rect>
+         <x>100</x>
+         <y>180</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAdd" >
+     <property name="geometry" >
+      <rect>
+       <x>430</x>
+       <y>460</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Add</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonCncl" >
+     <property name="geometry" >
+      <rect>
+       <x>530</x>
+       <y>460</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Cancel</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditPword" >
+     <property name="geometry" >
+      <rect>
+       <x>460</x>
+       <y>110</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit" >
+     <property name="geometry" >
+      <rect>
+       <x>460</x>
+       <y>70</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditDpt" >
+     <property name="geometry" >
+      <rect>
+       <x>460</x>
+       <y>30</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Search" >
+    <attribute name="title" >
+     <string>Find</string>
+    </attribute>
+    <widget class="QLineEdit" name="lineEditUinfo" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>User Info</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonOk" >
+     <property name="geometry" >
+      <rect>
+       <x>390</x>
+       <y>390</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>OK</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonClose" >
+     <property name="geometry" >
+      <rect>
+       <x>490</x>
+       <y>390</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Close</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelDptFind" >
+     <property name="geometry" >
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>63</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Department&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditDptFind" >
+     <property name="geometry" >
+      <rect>
+       <x>190</x>
+       <y>30</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidgetUinfo" >
+     <property name="geometry" >
+      <rect>
+       <x>30</x>
+       <y>200</y>
+       <width>581</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <row/>
+     <row/>
+     <row/>
+     <column>
+      <property name="text" >
+       <string>Last Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>First Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Employee ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Department</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Password</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_22" >
+     <property name="geometry" >
+      <rect>
+       <x>190</x>
+       <y>80</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelEmpFind" >
+     <property name="geometry" >
+      <rect>
+       <x>80</x>
+       <y>80</y>
+       <width>68</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;/head>&lt;body style=" white-space: pre-wrap; font-family:MS Shell Dlg; font-size:8.25pt; font-weight:400; font-style:normal; text-decoration:none;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Employee ID&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonFind" >
+     <property name="geometry" >
+      <rect>
+       <x>410</x>
+       <y>50</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Find</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="266"
+   name=""
+   committed-date="2006-05-06T15:54:59.791655Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src"
+   last-author="john"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   name="functionroom"
+   kind="dir"/>
+<entry
+   committed-rev="61"
+   name="Doxyfile"
+   text-time="2006-05-04T04:03:25.991348Z"
+   committed-date="2006-04-16T22:15:07.757568Z"
+   checksum="907fc00df3ee986a5bd8666b592de7be"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:11.630699Z"/>
+<entry
+   name="golf"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="restaurant"
+   kind="dir"/>
+<entry
+   name="shuttle"
+   kind="dir"/>
+<entry
+   name="tour"
+   kind="dir"/>
+<entry
+   name="pmm"
+   kind="dir"/>
+<entry
+   name="rio"
+   kind="dir"/>
+<entry
+   committed-rev="74"
+   name="Util.make"
+   text-time="2006-05-04T04:03:26.011377Z"
+   committed-date="2006-04-22T16:34:50.096730Z"
+   checksum="f6389807b55fec91fa20cad676b37c94"
+   last-author="john"
+   kind="file"
+   prop-time="2006-05-04T04:03:20.573558Z"/>
+<entry
+   name="giftcerts"
+   kind="dir"/>
+<entry
+   name="dbmgr"
+   kind="dir"/>
+<entry
+   name="search"
+   kind="dir"/>
+<entry
+   committed-rev="141"
+   name="main.cpp"
+   text-time="2006-05-04T04:03:26.021392Z"
+   committed-date="2006-04-26T18:39:00.515832Z"
+   checksum="f03f28dd2095e441514d8e59c058d0cd"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:22.686596Z"/>
+<entry
+   name="security"
+   kind="dir"/>
+<entry
+   name="maint"
+   kind="dir"/>
+<entry
+   name="mainwindow"
+   kind="dir"/>
+</wc-entries>

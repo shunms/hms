@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="47"
+   name=""
+   committed-date="2006-04-14T14:56:27.728541Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/doc/archspec"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="47"
+   name="Architectural Spec_ver2.0.doc"
+   text-time="2006-05-04T04:03:09.117084Z"
+   committed-date="2006-04-14T14:56:27.728541Z"
+   checksum="bef31d06f57d5bb3a854048d66a16ac8"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:09.087041Z"/>
+</wc-entries>

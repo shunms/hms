@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="243"
+   name=""
+   committed-date="2006-05-05T17:19:51.073472Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/restaurant"
+   last-author="pthippana"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="234"
+   name="table_waitlist_base.cpp"
+   text-time="2006-05-05T21:20:33.370275Z"
+   committed-date="2006-05-05T16:16:21.706415Z"
+   checksum="10ef92b517e0de898630ff634608e441"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:31.788000Z"/>
+<entry
+   committed-rev="235"
+   name="table_reservation_base.cpp"
+   text-time="2006-05-05T21:20:33.480433Z"
+   committed-date="2006-05-05T16:16:40.668286Z"
+   checksum="049253d4d297776139a29d10c9a38ded"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:31.818043Z"/>
+<entry
+   committed-rev="241"
+   name="table_reservedialog.cpp"
+   text-time="2006-05-05T21:20:33.610620Z"
+   committed-date="2006-05-05T16:19:13.613697Z"
+   checksum="581fab2ef89139186576f0662c1aeacf"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:31.838072Z"/>
+<entry
+   committed-rev="236"
+   name="table_waitlist_base.h"
+   text-time="2006-05-05T21:20:33.620635Z"
+   committed-date="2006-05-05T16:16:55.469627Z"
+   checksum="f0304fb81a2bf8efa0c60bb2f59aff05"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:31.998302Z"/>
+<entry
+   committed-rev="237"
+   name="table_reservation_base.h"
+   text-time="2006-05-05T21:20:33.750822Z"
+   committed-date="2006-05-05T16:17:14.596259Z"
+   checksum="f4728b90a44cfb39117e59cc8865ad6a"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:32.529065Z"/>
+<entry
+   committed-rev="239"
+   name="table_reservedialog.h"
+   text-time="2006-05-05T21:20:33.830937Z"
+   committed-date="2006-05-05T16:18:22.384046Z"
+   checksum="cc43df0fa7fb31f41af63dfe2c008d7b"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:32.559108Z"/>
+<entry
+   committed-rev="238"
+   name="table_Reservation.cpp"
+   text-time="2006-05-05T21:20:33.840952Z"
+   committed-date="2006-05-05T16:17:58.037960Z"
+   checksum="3c1c0d7e6abdb0b5024c592338175335"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:32.669267Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   committed-rev="240"
+   name="table_Reservation.h"
+   text-time="2006-05-05T21:20:33.860980Z"
+   committed-date="2006-05-05T16:18:51.857096Z"
+   checksum="f139106bbd00d86eec401aafa890185f"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:33.330217Z"/>
+</wc-entries>

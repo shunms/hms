@@ -1,0 +1,375 @@
+/*****************************************************************************
+ * hotel_info.cpp - source file
+ *
+ * Author: John Mulligan <phlogistonjohn@yahoo.com>
+ * Team: Softlinks <http://softlinks.nile.homelinux.net:8000>
+ *
+ * Created: 2006-04-08
+ *
+ *****************************************************************************
+ */
+
+
+#include <QDebug>
+#include <QtGui>
+
+#include "hotel_info.h"
+#include <QMessageBox>
+
+
+//Constructor for Hotel_Info_Ui
+
+Hotel_Info_Ui::Hotel_Info_Ui( QWidget * parent ) : QWidget( parent )
+{
+	ownerNum = 0;
+	roomTypeNum = 0;
+	roomNum = 0;
+	restNum = 0;
+	tableNum =0;
+    ui.setupUi( this );
+
+	QObject::connect(ui.saveHotelInfo, SIGNAL(clicked()), this, SLOT(SaveHotelInfo()));
+
+	QObject::connect(ui.addRoomType, SIGNAL(clicked()), this, SLOT(AddRoomType()));
+	QObject::connect(ui.delRoomType, SIGNAL(clicked()), this, SLOT(DeleteRoomType()));
+	QObject::connect(ui.saveRoomTypes, SIGNAL(clicked()), this, SLOT(SaveRoomTypes()));
+
+	QObject::connect(ui.addRoomButton, SIGNAL(clicked()), this, SLOT(AddRoom()));
+	QObject::connect(ui.remRoomButton, SIGNAL(clicked()), this, SLOT(RemoveRoom()));
+	QObject::connect(ui.saveRoomsInfo, SIGNAL(clicked()), this, SLOT(SaveRoomInfo()));
+
+	QObject::connect(ui.addOwnerButton, SIGNAL(clicked()), this, SLOT(AddOwner()));
+	QObject::connect(ui.delOwnerButton, SIGNAL(clicked()), this, SLOT(DeleteOwner()));
+	QObject::connect(ui.saveOwnerInfo, SIGNAL(clicked()), this, SLOT(SaveOwnerInfo()));
+
+	QObject::connect(ui.addRestButton, SIGNAL(clicked()), this, SLOT(AddRestaurant()));
+	QObject::connect(ui.remRestButton, SIGNAL(clicked()), this, SLOT(RemoveRestaurant()));
+	QObject::connect(ui.saveRestInfo, SIGNAL(clicked()), this, SLOT(SaveRestaurants()));
+
+	QObject::connect(ui.addTableButton, SIGNAL(clicked()), this, SLOT(AddRestTable()));
+	QObject::connect(ui.remTableButton, SIGNAL(clicked()), this, SLOT(RemoveRestTable()));
+	QObject::connect(ui.saveTablesInfo, SIGNAL(clicked()), this, SLOT(SaveRestTableInfo()));
+}
+
+
+
+
+
+
+void Hotel_Info_Ui::SaveHotelInfo( )
+{
+    hotelOb.SetName( ui.nameLineEdit->text() );
+
+	hotelOb.SetAddress( ui.adrsLineEdit->text() );
+
+	hotelOb.SetCity( ui.cityLineEdit->text() );
+
+	hotelOb.SetState( ui.stateComboBox->currentText() );
+
+	hotelOb.SetZipCode( ui.codeLineEdit->text() );
+
+	hotelOb.SetCountry( ui.countryLineEdit->text() );
+
+	QMessageBox::information( this, "Message", "Hotel Info Saved" );
+}
+
+
+
+
+void Hotel_Info_Ui::AddOwner( )
+{
+	ui.ownerTable->insertRow(ownerNum);
+	ownerNum = ownerNum + 1;
+}
+
+
+
+
+void Hotel_Info_Ui::DeleteOwner( )
+{
+	ui.ownerTable->removeRow(ui.ownerTable->currentRow());
+	ownerNum = ownerNum - 1;
+}
+
+
+
+
+void Hotel_Info_Ui::SaveOwnerInfo( )
+{
+	int ownerCnt;
+	for(ownerCnt = 0; ownerCnt < ownerNum; ownerCnt++)
+	{
+		if (ownerNum >= owners.size())
+		{
+			Owner_Info_Base* newOwner = new Owner_Info_Base;
+			owners.append( newOwner );
+		}
+		owners[ownerCnt]->SetFirstName( ui.ownerTable->item(ownerCnt,0)->text() );
+
+		owners[ownerCnt]->SetLastName( ui.ownerTable->item(ownerCnt,1)->text() );
+
+		owners[ownerCnt]->SetAddress( ui.ownerTable->item(ownerCnt,2)->text() );
+
+		owners[ownerCnt]->SetPhone( ui.ownerTable->item(ownerCnt,3)->text() );
+
+		owners[ownerCnt]->SetEmail( ui.ownerTable->item(ownerCnt,4)->text() );
+
+		owners[ownerCnt]->SetNotes( ui.ownerTable->item(ownerCnt,5)->text() );
+	}
+
+	QMessageBox::information( this, "Message", "Owner Info Saved" );
+}
+
+
+
+
+
+void Hotel_Info_Ui::AddRoomType()
+{
+	ui.roomTypesTable->insertRow(roomTypeNum);
+	roomTypeNum = roomTypeNum + 1;
+}
+
+
+
+
+void Hotel_Info_Ui::DeleteRoomType()
+{
+	ui.roomTypesTable->removeRow(ui.roomTypesTable->currentRow());
+	roomTypeNum = roomTypeNum - 1;
+}
+
+
+
+
+void Hotel_Info_Ui::SaveRoomTypes()
+{
+	bool ok;
+	int roomTypesCnt;
+	for(roomTypesCnt = 0; roomTypesCnt < roomTypeNum; roomTypesCnt++)
+	{
+		if (roomTypeNum >= roomTypes.size())
+		{
+			Room_Types_Base* newRoomType = new Room_Types_Base;
+			roomTypes.append( newRoomType );
+		}
+
+		roomTypes[roomTypesCnt]->SetRoomType( ui.roomTypesTable->item(roomTypesCnt,0)->text() );
+		roomTypes[roomTypesCnt]->SetRoomRate( ui.roomTypesTable->item(roomTypesCnt,1)->text().toFloat(&ok) );
+	}
+	QMessageBox::warning( this, "Massage", "Room Types Saved" );
+}
+
+
+
+
+
+
+void Hotel_Info_Ui::AddRoom( )
+{
+	int Cnt;
+
+	ui.roomsTable->insertRow(roomNum);
+
+	if (roomNum >= roomStatusBoxes.size())
+	{
+		TableComboBox* tbox = new TableComboBox( roomNum, 2, ui.roomsTable );
+		roomStatusBoxes.append( tbox );
+	}
+
+    roomStatusBoxes[roomNum]->addItem( "Vacant" );
+    roomStatusBoxes[roomNum]->addItem( "Reserved" );
+    roomStatusBoxes[roomNum]->addItem( "Occupied" );
+
+	if (roomNum >= roomTypeBoxes.size())
+	{
+		TableComboBox* roomTypeBox = new TableComboBox( roomNum, 3, ui.roomsTable );
+		roomTypeBoxes.append( roomTypeBox );
+	}
+
+	for(Cnt = 0; Cnt < roomTypeNum; Cnt++)
+	roomTypeBoxes[roomNum]->addItem( roomTypes[Cnt]->GetRoomType( ) );
+
+	roomNum = roomNum + 1;
+
+}
+
+
+
+
+
+void Hotel_Info_Ui::RemoveRoom( )
+{
+	/* 'If' statement is to avoid reaction of button when no row is selected => in that case*/
+	if (ui.roomsTable->currentRow() >= 0)						
+	{
+
+	roomStatusBoxes.removeAt(ui.roomsTable->currentRow());
+
+	roomTypeBoxes.removeAt(ui.roomsTable->currentRow());
+
+	ui.roomsTable->removeRow(ui.roomsTable->currentRow());
+
+	roomNum = roomNum - 1;
+	}
+}
+
+
+
+
+void Hotel_Info_Ui::SaveRoomInfo( )
+{
+	bool ok;
+	int roomCnt;
+	for(roomCnt = 0; roomCnt < roomNum; roomCnt++)
+	{
+		if (roomNum >= rooms.size())
+		{
+			Room_Info_Base* newRoom = new Room_Info_Base;
+			rooms.append( newRoom );
+		}
+
+		rooms[roomCnt]->SetNumber( ui.roomsTable->item(roomCnt,0)->text().toInt(&ok) );
+
+		rooms[roomCnt]->SetFloor( ui.roomsTable->item(roomCnt,1)->text().toInt(&ok) );
+
+		rooms[roomCnt]->SetStatus( roomStatusBoxes[roomCnt]->currentText() );
+
+		rooms[roomCnt]->SetType( roomTypeBoxes[roomCnt]->currentText() );
+
+		rooms[roomCnt]->SetSqFootage( ui.roomsTable->item(roomCnt,4)->text().toInt(&ok) );
+
+		rooms[roomCnt]->SetBeds( ui.roomsTable->item(roomCnt,5)->text().toInt(&ok) );
+
+		rooms[roomCnt]->SetMaxOccupants( ui.roomsTable->item(roomCnt,6)->text().toInt(&ok) );
+
+		rooms[roomCnt]->SetView( ui.roomsTable->item(roomCnt,7)->text() );
+	}
+
+	QMessageBox::information( this, "Message", "Rooms Info Saved" );
+}
+
+
+
+
+
+
+void Hotel_Info_Ui::AddRestaurant()
+{
+	ui.restTable->insertRow(restNum);
+	restNum = restNum + 1;
+}
+
+
+
+
+
+void Hotel_Info_Ui::RemoveRestaurant()
+{
+	ui.restTable->removeRow(ui.restTable->currentRow());
+	restNum = restNum - 1;
+}
+
+
+
+
+void Hotel_Info_Ui::SaveRestaurants()
+{
+	bool ok;
+	int restCnt;
+	for(restCnt = 0; restCnt < restNum; restCnt++)
+	{
+		if (restNum >= restaurants.size())
+		{
+			Restaurant_Info* newRest = new Restaurant_Info;
+			restaurants.append( newRest );
+		}
+
+		//restaurants[restCnt]->SetRestNum( ui.restTable->item(restCnt,0)->text().toInt(&ok) );
+
+		restaurants[restCnt]->SetRestType( ui.restTable->item(restCnt,1)->text() );
+
+		restaurants[restCnt]->SetNumTables( ui.restTable->item(restCnt,2)->text().toInt(&ok) );
+
+		restaurants[restCnt]->SetRestNotes( ui.restTable->item(restCnt,3)->text() );
+	}
+
+	QMessageBox::information( this, "Massage", "Restaurants Information Saved\nSave Tables Info" );
+}
+
+
+
+
+
+void Hotel_Info_Ui::AddRestTable()
+{
+	ui.restTablesTable->insertRow(tableNum);
+	tableNum = tableNum + 1;
+}
+
+
+
+
+
+void Hotel_Info_Ui::RemoveRestTable()
+{
+	ui.restTablesTable->removeRow(ui.restTablesTable->currentRow());
+	tableNum = tableNum - 1;
+}
+
+
+
+
+void Hotel_Info_Ui::SaveRestTableInfo()
+{
+	bool ok;
+	int tableCnt;
+	for(tableCnt = 0; tableCnt < tableNum; tableCnt++)
+	{
+		if (tableNum >= tables.size())
+		{
+			Tables_Info* newTable = new Tables_Info;
+			tables.append( newTable );
+		}
+
+		//tables[tableCnt]->SetTableRestNum( ui.restTablesTable->item(tableCnt,0)->text().toInt(&ok) );
+
+		//tables[tableCnt]->SetTableNum( ui.restTablesTable->item(tableCnt,1)->text().toInt(&ok) );
+
+		tables[tableCnt]->SetTableCapacity( ui.restTablesTable->item(tableCnt,2)->text().toInt(&ok) );
+	}
+
+	QMessageBox::information( this, "Massage", "Restaurant Tables Info Saved" );
+}
+
+
+
+
+
+
+
+/****** If u want to think abt resetting room types in the rooms table*********/
+/*		if (roomNum > 0)
+			for(roomCnt = 0; roomCnt < roomNum; roomCnt++)
+			{
+			TableComboBox* roomTypeBox = new TableComboBox( roomNum, 3, ui.roomsTable );
+			for(Cnt = 0; Cnt < roomTypeNum; Cnt++)
+			roomTypeBox->addItem( roomTypes[Cnt]->GetRoomType( ) );
+			}*/
+
+//qDebug() << "Room row" << roomNum;
+
+//QMessageBox::warning( this, "blah", "1" );
+
+/*QMessageBox::critical(this, "You are in Room Table",
+                    QString("Room Number: %1").arg(roomNum) ) ;*/
+
+
+
+
+
+// EOF
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="128"
+   name=""
+   committed-date="2006-04-25T17:57:43.593517Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/doc/projectmanagement"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="128"
+   name="ProjectManagement.doc"
+   text-time="2006-05-04T04:00:48.524923Z"
+   committed-date="2006-04-25T17:57:43.593517Z"
+   checksum="afa622a7a7b712f3a8a898e75d9321b4"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:00:48.494880Z"/>
+</wc-entries>

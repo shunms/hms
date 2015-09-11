@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="200"
+   name=""
+   committed-date="2006-05-01T02:22:27.296700Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/tour"
+   last-author="pthippana"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="199"
+   name="tour_info_base.cpp"
+   text-time="2006-05-04T04:03:20.964120Z"
+   committed-date="2006-05-01T01:34:24.961131Z"
+   checksum="fd6710c434882a77b6c9e77ab6bc0b9b"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-04T04:03:20.884004Z"/>
+<entry
+   committed-rev="200"
+   name="tour_info_base.h"
+   text-time="2006-05-04T04:03:20.974134Z"
+   committed-date="2006-05-01T02:22:27.296700Z"
+   checksum="d0692a408d14dc1143195d7cff134ea6"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-04T04:03:20.894019Z"/>
+<entry
+   committed-rev="102"
+   name="tour_info.cpp"
+   text-time="2006-05-04T04:03:20.994163Z"
+   committed-date="2006-04-23T14:15:17.991747Z"
+   checksum="d8b3f615df96fa13e3f6742848f99f9e"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-04T04:03:20.894019Z"/>
+<entry
+   committed-rev="108"
+   name="tour_info.h"
+   text-time="2006-05-04T04:03:21.004177Z"
+   committed-date="2006-04-23T17:57:31.105715Z"
+   checksum="0e57e8593b8daeaca4d3d960d20f1baf"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-04T04:03:20.904033Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+</wc-entries>

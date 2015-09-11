@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="263"
+   name=""
+   committed-date="2006-05-06T00:33:54.697426Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/dbmgr"
+   last-author="sudha"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="280"
+   name="db_mgr.h"
+   text-time="2006-05-07T01:12:30.654238Z"
+   committed-date="2006-05-07T01:17:49.209130Z"
+   checksum="f03e363da08a342cb3c8ae71d315dc21"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:21.424782Z"
+   revision="280"/>
+<entry
+   committed-rev="280"
+   name="db_mgr.cpp"
+   text-time="2006-05-07T01:15:07.599915Z"
+   committed-date="2006-05-07T01:17:49.209130Z"
+   checksum="9e7d89e7ff5088f457f855d918731819"
+   last-author="sudha"
+   kind="file"
+   prop-time="2006-05-04T04:03:22.155833Z"
+   revision="280"/>
+</wc-entries>

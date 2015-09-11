@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="244"
+   name=""
+   committed-date="2006-05-05T18:24:54.987743Z"
+   url="svn://nile.homelinux.net/hms/trunk/hms/src/functionroom/ui"
+   last-author="pthippana"
+   kind="dir"
+   uuid="c6626cab-c00b-0410-831b-cbf83c162c56"
+   repos="svn://nile.homelinux.net"
+   revision="266"/>
+<entry
+   committed-rev="244"
+   name="function_room.ui"
+   text-time="2006-05-05T21:20:30.716459Z"
+   committed-date="2006-05-05T18:24:54.987743Z"
+   checksum="bde58f17e94e077215010b19b10ad7e1"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-05T21:20:30.466099Z"/>
+<entry
+   committed-rev="178"
+   name="function_roomdialog.ui"
+   text-time="2006-05-04T04:03:10.629259Z"
+   committed-date="2006-04-30T01:01:48.402955Z"
+   checksum="ee10eb1645d8c2b54a28016963bca6d5"
+   last-author="pthippana"
+   kind="file"
+   prop-time="2006-05-04T04:03:10.529115Z"/>
+</wc-entries>
